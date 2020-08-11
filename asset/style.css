@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.link, .link:hover{
+    text-decoration: none;
+}
+.section-hero{
+    height: 80vh;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+.section-hero__inner-container{
+    height: 80vh;
+}
+.btn{
+    padding: 12px 32px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all ease-in-out 0.2s;
+    border: none;
+}
+.btn-transparent{
+    border:1px solid wheat;
+    color: white;
+    background: transparent;
+    
+}
+.btn-transparent:hover{
+    background-color: white;
+    color: #000000;
+    border: none;
+}
+btn-danger:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.section-services{
+    height: 35vh;
+    padding: 50px 0;
+    background-color: whitesmoke;
+}
+
+.service-card{
+    /* border: 1px solid maroon; */
+}
+
+.service-card__icon-item::before{
+    margin-left: 0px;
+    font-size: 25px;
+    padding: 15px;
+    color: rgb(221, 17, 17);
+    border-radius: 50%;
+    border: 1px solid rgba(248, 244, 244, 0.952);
+
+}
+
+
+.section-work{
+    height: 150vh;
+    padding: 60px 0px;
+    background-color: #faf1f1;
+}
+.section-heading__title{
+    border-bottom: 3px solid red;
+    display: inline-block;
+}
+
+.card{
+    margin: 15px;
+}
+.card__img-container{
+    position: relative;
+}
+.card__img-overlay{
+    background: rgb(231, 7, 19);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    opacity: 0;
+    transition: ease all 0.3s;
+}
+.card:hover.card__img-overlay{
+    opacity: 1;
+}
+.section-subscribe{
+    height: 30vh;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
